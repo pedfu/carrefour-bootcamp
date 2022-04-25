@@ -102,3 +102,42 @@ header .container {
 .carousel-movies {
     margin-top: 5px;
 }
+
+.disabled {
+    display: none;
+}
+
+.popup {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+
+    margin: auto;
+
+    z-index: 9999;
+    text-align: center;
+    background-color: rgba(0,0,0, 0.5);
+
+    
+}
+
+.popup video {
+    width: 90%;
+    max-height: 70%;
+    background-color: red;
+    height: fit-content;
+}
+
+.popup p {
+    text-align: right;
+    padding: 10px;
+    cursor: pointer;
+}
+
+h1.title {
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+}

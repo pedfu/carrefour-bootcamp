@@ -32,11 +32,11 @@
                 <p class="description">Peter Parker é desmascarado e não consegue mais separar sua vida normal dos grandes riscos de ser um super-herói. Quando ele pede ajuda ao Doutor Estranho, os riscos se tornam ainda mais perigosos, e o forçam a descobrir o que realmente significa ser o Homem-Aranha.</p>
 
                 <div class="buttons">
-                    <button role="button" class="button">
+                    <button role="button" class="button" onclick="clicked()">
                         <i class="fas fa-play"></i>
                          ASSISTIR AGORA
                     </button>
-                    <button role="button" class="button">
+                    <button role="button" class="button" onclick="window.location.href='./info.html'">
                         <i class="fas fa-info-circle"></i>
                         MAIS INFORMACOES
                     </button>
@@ -75,6 +75,13 @@
                 <img class="box-movie" src="img/min9.jpg" alt="movie image">
             </div>
         </div>
+    </div>
+
+    <div id="popup" class="popup disabled">
+        <p onclick="clicked()">X</p>
+        <iframe id="video" width="90%" height="90%"
+            src="https://www.youtube.com/embed/JfVOs4VSpmA">
+        </iframe>
     </div>
 
     <script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
